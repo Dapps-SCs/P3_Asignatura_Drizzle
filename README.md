@@ -13,7 +13,7 @@ La dirección seleccionada en Metamask identifica al alumno que se está matricu
 La dirección seleccionada en Metamask identifica al alumno que se está matriculando.
  
  - Se crea un botón en la interfaz
- - Y se implementa la lógica que cambia el estado
+ - Y se implementa la lógica que cambia el estado (store de drizzle)
 
 - [ ] 2 Crear un formulario para que el profesor cree nuevas evaluaciones.
 
