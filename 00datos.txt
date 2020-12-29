@@ -1,0 +1,7 @@
+Autores:
+
+Carlos Aznar
+Salomón Fereres
+Adrián Blázquez
+
+En el readme.md se presenta un video de demo de la feature y se razona cómo se ha implementado cada requisito.
