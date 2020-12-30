@@ -9,6 +9,34 @@ La dirección seleccionada en Metamask identifica al alumno que se está matricu
 
 ---------------------
 
+Pasos previos:
+
+- Crear un workspace en ganache
+
+- Migrar y compilar los contratos (en el directorio contracts)
+
+```
+npx truffle migrate --reset --compile-all
+```
+
+- Se testean los contratos
+
+```
+npx truffle test
+```
+
+- Rellenarlos
+
+```
+npx truffle exec scripts/rellenar.js
+```
+
+- Se arranca el servidor web
+
+```
+npm start
+```
+
 - [ ] 1 Crear un botón para que un alumno se pueda matricular.  
 La dirección seleccionada en Metamask identifica al alumno que se está matriculando.
  
