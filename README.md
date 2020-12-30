@@ -19,6 +19,12 @@ Pasos previos:
 npx truffle migrate --reset --compile-all
 ```
 
+- Rellenarlos
+
+```
+npx truffle exec scripts/rellenar.js
+```
+
 - [ ] 1 Crear un botón para que un alumno se pueda matricular.  
 La dirección seleccionada en Metamask identifica al alumno que se está matriculando.
  
