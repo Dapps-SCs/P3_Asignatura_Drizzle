@@ -2,7 +2,7 @@ import {newContextComponents} from "@drizzle/react-components";
 
 import AlumnosHead from "./AlumnosHead";
 import AlumnosBody from "./AlumnosBody";
-// import Matricular from "./Matricular";
+import Matricular from "./Matricular";
 
 const {ContractData} = newContextComponents;
 
@@ -25,7 +25,8 @@ const Alumnos = (props) => (
             )}
         />
 
-        <button key="submit" type="button"> Matricular </button>
+        <Matricular drizzle={props.drizzle}
+                   drizzleState={props.drizzleState} />
 
     </section>
 );
