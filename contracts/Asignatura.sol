@@ -194,7 +194,7 @@ contract Asignatura {
      * 
      * @return true si es una alumno matriculado.
      */
-    function estaMatriculado(address alumno) private view returns (bool) {
+    function estaMatriculado(address alumno) public view returns (bool) {
       
         string memory _nombre = datosAlumno[alumno].nombre;
         
