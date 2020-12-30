@@ -19,6 +19,12 @@ Pasos previos:
 npx truffle migrate --reset --compile-all
 ```
 
+- Se testean los contratos
+
+```
+npx truffle test
+```
+
 - Rellenarlos
 
 ```
