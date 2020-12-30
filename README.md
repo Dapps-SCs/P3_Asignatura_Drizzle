@@ -13,7 +13,7 @@ Pasos previos:
 
 - Crear un workspace en ganache
 
-- Migrar y compilar los contratos
+- Migrar y compilar los contratos (en el directorio contracts)
 
 ```
 npx truffle migrate --reset --compile-all
