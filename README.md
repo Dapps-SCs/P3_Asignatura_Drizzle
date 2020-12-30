@@ -31,6 +31,12 @@ npx truffle test
 npx truffle exec scripts/rellenar.js
 ```
 
+- Se arranca el servidor web
+
+```
+npm start
+```
+
 - [ ] 1 Crear un botón para que un alumno se pueda matricular.  
 La dirección seleccionada en Metamask identifica al alumno que se está matriculando.
  
