@@ -45,4 +45,7 @@ La dirección seleccionada en Metamask identifica al alumno que se está matricu
 
 - [ ] 2 Crear un formulario para que el profesor cree nuevas evaluaciones.
 
+- Se crea un formulario en la interfaz (con el componente de react-drizzle de formulario)
+- Y se implementa la lógica que cambia el estado
+
 - [ ] 3 Permitir obtener un listado con las notas de todos los alumnos en una determinada evaluación.
