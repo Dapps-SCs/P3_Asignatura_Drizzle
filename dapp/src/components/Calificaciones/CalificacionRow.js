@@ -17,7 +17,7 @@ const CalificacionRow = (props) => {
                 method={"calificaciones"}
                 methodArgs={[alumnoAddr, ei]}
                 render={nota =>
-                    <td key={"p2-" + alumnoIndex + "-" + ei}>
+                    <td key={"p2-" + alumnoAddr + "-" + ei}>
                         {nota.tipo === "0" ? "N.P." : ""}
                         {nota.tipo === "1" ? (nota.calificacion / 10).toFixed(1) : ""}
                         {nota.tipo === "2" ? (nota.calificacion / 10).toFixed(1) + "(M.H.)" : ""}
