@@ -34,15 +34,14 @@ const Calificaciones = (props) => (
 
         />
 
-        <h2> Listado de notas de la evaluacion</h2>
 
-        <ObtenerLista drizzle={props.drizzle}
-                      drizzleState={props.drizzleState} />
+
 
         <Calificar drizzle={props.drizzle}
                    drizzleState={props.drizzleState} />
 
-
+        <ObtenerLista drizzle={props.drizzle}
+                      drizzleState={props.drizzleState} />
     </section>
 );
 

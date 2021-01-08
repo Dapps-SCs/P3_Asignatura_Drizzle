@@ -5,6 +5,7 @@ const {ContractData} = newContextComponents;
 
 const ObtenerLista = (props) => {
 
+
     const [evaluacion, setEvaluacion] = useState(0);
 
     const option = evaluacionIndex => (
@@ -59,7 +60,7 @@ const ObtenerLista = (props) => {
                             method="calificaciones"
                             methodArgs={[alumnoAddr, evaluacionIndex]}
                             render={nota => (
-                                <td key={"CalificacionesEvaluacion-row-" + alumnoAddr}>
+                                <td key={"CalificacionesEvaluacion" + alumnoAddr}>
                                     {nota.tipo === "0" && "N.P."}
                                     {nota.tipo === "1" && nota.calificacion / 10}
                                     {nota.tipo === "2" && (nota.calificacion / 10) + "(M.H.)"}
@@ -73,9 +74,10 @@ const ObtenerLista = (props) => {
     );
 
     const table = evaluacionIndex => (
+
         <table>
             <thead>
-            <th>A</th>
+            <th>#</th>
             <th>Nombre</th>
             <th>Nota</th>
             </thead>
@@ -93,6 +95,7 @@ const ObtenerLista = (props) => {
 
     return (
         <>
+            <h2> Listado de notas de la evaluacion </h2>
             {dropdown}
             {table(evaluacion)}
         </>
