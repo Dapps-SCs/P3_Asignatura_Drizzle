@@ -5,12 +5,20 @@ const Matricular = ({drizzle, drizzleState}) => <MatricularV1  drizzle={drizzle}
 
 const MatricularV1 = ({drizzle, drizzleState}) => <article className="AppMisDatos">
     <h3>Matricular</h3>
-    <ContractForm drizzle={drizzle}
+    <ContractData drizzle={drizzle} drizzleState={drizzleState}
+        contract={"Asignatura"} method={"profesor"} methodArgs={[]}
+        render={addr => {
+            if (addr == drizzleState.accounts[0]) {
+                return <p>"NO SOY ALUMNO"</p>
+            }
+        return <ContractForm drizzle={drizzle}
                       drizzleState={drizzleState}
                       contract="Asignatura"
                       method="automatricula"
                       labels={["Nombre Alumno", "Email Alumno"]}
-        />
-    </article>
+                />
+       }}
+     />
+  </article>
 
 export default Matricular;
