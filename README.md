@@ -51,5 +51,5 @@ La dirección seleccionada en Metamask identifica al alumno que se está matricu
 
 - [ ] 3 Permitir obtener un listado con las notas de todos los alumnos en una determinada evaluación.
 
- - Se crea un botón en la interfaz
+ - Se crea un desplegable que permite elegir que evaluacion escoges para ver la nota
  - Y se implementa la lógica que cambia el estado
