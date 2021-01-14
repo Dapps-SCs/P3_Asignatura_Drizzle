@@ -2,9 +2,9 @@
 
 ## Autores:
 
-Carlos Aznar
-Salomón Fereres
-Adrián Blázquez
+- Carlos Aznar
+- Salomón Fereres
+- Adrián Blázquez
 
 Demo de las features:
 
